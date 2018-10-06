@@ -1,7 +1,8 @@
 .container {
 background-image: radial-gradient(circle at center, #1f004d,#1f004d, #5B3490);
   max-width: 100%;
-  width: 1200px;
+  margin: auto;
+  width: 100%;
 }
 
  #footer {
