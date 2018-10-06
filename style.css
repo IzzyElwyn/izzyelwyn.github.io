@@ -1,6 +1,6 @@
 .container {
 background-image: radial-gradient(circle at center, #1f004d,#1f004d, #5B3490);
-  margin: auto;
+  margin: 0px auto;
   max-width: 100%;
   width: 1200px;
 }
