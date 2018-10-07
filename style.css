@@ -4,10 +4,6 @@
   --lgt-purple: #5B3490;
 }
 
-body {
-  margin: 0;
-}
-
 .container {
   background-image: radial-gradient(circle at center,   var(--dark-purple),var(--med-purple), var(--lgt-purple));
   background-attachment: fixed;
