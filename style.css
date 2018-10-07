@@ -10,6 +10,7 @@ body {
 
 .container {
   background-image: radial-gradient(circle at center,   var(--dark-purple),var(--med-purple), var(--lgt-purple));
+  width: 100%;
   background-attachment: fixed;
   margin-color: #1f004d;
   padding: 0;
