@@ -4,6 +4,15 @@
   --lgt-purple: #5B3490;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
 .container {
   background-image: radial-gradient(circle at center, var(--dark-purple), var(--med-purple), var(--lgt-purple));
   background-attachment: fixed;
