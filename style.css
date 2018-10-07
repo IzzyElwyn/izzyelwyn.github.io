@@ -53,9 +53,8 @@ body {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  max-width: 10%;
   z-index: 100;
-  height: .5em:
+  height: 25%:
   width: auto;
   transform: translate(-50%, -50%);
   border: none;
