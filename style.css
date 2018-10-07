@@ -96,7 +96,7 @@ body {
 
 .hero-text {
   text-align: center;
-  font-size: 3em;
+  font-size: 300%;
   font-family: 'Merriweather', serif;
   position: absolute;
   top: 50%;
@@ -107,7 +107,7 @@ body {
 
 .hero-description {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 100%;
   font-family: 'Merriweather', serif;
   position: absolute;
   top: 65%;
@@ -127,7 +127,7 @@ body {
   display: inline-block;
   padding: 6px 15px;
   color: black;
-  font-size: 1rem;
+  font-size: 100%;
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
