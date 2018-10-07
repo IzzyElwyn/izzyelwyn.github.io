@@ -83,7 +83,7 @@ body {
 .hero img {
   max-width: 100%;
   opacity: 0.9;
-  background-size: contain;
+  background-size: cover;
 
 }
 
