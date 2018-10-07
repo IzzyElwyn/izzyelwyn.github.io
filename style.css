@@ -167,6 +167,27 @@ body {
 	border-radius: 25px;
 }
 
+.projects-banner {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.projects-content {
+  text-align: center;
+  display: flex;
+  color: white;
+	grid-gap: 1px;
+	width: 80%;
+	height: 20rem;
+	margin: 2rem auto;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 1px 2px 3px #666;
+  box-shadow: 4px 6px 28px -2px rgba(0,0,0,0.75);
+  background-color: black;
+  justify-content: space-around;
+	border-radius: 25px;
+}
+
 #footer {
   display: flex;
   align-items: flex-end;
