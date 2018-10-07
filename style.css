@@ -4,15 +4,16 @@
   --lgt-purple: #5B3490;
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   background-image: radial-gradient(circle at center,   var(--dark-purple),var(--med-purple), var(--lgt-purple));
   background-attachment: fixed;
   margin-color: #1f004d;
+  padding: 0;
   margin: 0;
-}
-
-body {
- margin: 0;
 }
 
  #footer {
@@ -33,9 +34,9 @@ body {
 }
 
  .fa {
-  padding: 4px;
-  font-size: 25px;
-  width: 30px;
+  padding: .1em;
+  font-size: 1.5em;
+  width: 1.1em;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -58,9 +59,8 @@ body {
 
  #header {
   display: flex;
-  background-color: black;
   max-width: 100%;
-  width: 100%;
+  background-color: black;
   align-items: center; /*y-axis*/
   justify-content: space-between;
 }
@@ -69,7 +69,7 @@ body {
   color: white;
   font-size: xx-large;
   font-family: 'Merriweather', serif;
-  padding-left: 20px;
+  padding-left: 2%;
 }
 
  #header ul {
@@ -80,10 +80,9 @@ body {
   text-shadow: 1px 2px 3px #666;
   box-shadow: 4px 6px 28px -2px rgba(0,0,0,0.75);
   display: flex; /* default is row */
-  width: 40rem;
-  height: 3rem;
+  width: 25em;
+  height: 2em;
   justify-content: space-around;
-	border-radius: 25px;
 }
 
  #header li {
@@ -91,18 +90,22 @@ body {
 }
 
  .hero {
+  display: flex;
+  align-items: flex-end;
   grid-column-start: 1;
   grid-column-end: 4;
+
 }
 
 .hero img {
-  opacity: 0.9;
   max-width: 100%;
+  opacity: 0.9;
+
 }
 
 .hero-text {
   text-align: center;
-  font-size: xx-large;
+  font-size: 3em;
   font-family: 'Merriweather', serif;
   position: absolute;
   top: 50%;
@@ -113,6 +116,7 @@ body {
 
 .hero-description {
   text-align: center;
+  font-size: 1.5rem;
   font-family: 'Merriweather', serif;
   position: absolute;
   top: 65%;
@@ -131,9 +135,9 @@ body {
   top: 80%;
   font-family: 'Oswald', sans-serif;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 6px 15px;
   color: black;
-  font-size: medium;
+  font-size: 1rem;
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
@@ -151,6 +155,9 @@ body {
   grid-column-end: 4;
   justify-content: space-around;
   display: flex; /* default is row */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
  .content {
@@ -167,4 +174,12 @@ body {
   background-color: black;
   justify-content: space-around;
 	border-radius: 25px;
+}
+
+#bulb {
+
+}
+
+#grid {
+
 }
