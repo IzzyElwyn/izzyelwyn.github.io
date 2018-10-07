@@ -94,6 +94,8 @@ body {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
+  max-width: 5%;
+  max-height: 5%;
   z-index: 100;
   transform: translate(-50%, -50%);
   border: none;
