@@ -69,7 +69,11 @@ body {
   margin: 0;
   padding: .5em;
   top: 0;
-  justify-content: space-around;
+  justify-content: flex-end;
+}
+
+#header li {
+  padding-left: 4em;
 }
 
 #header li a:link {
