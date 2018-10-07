@@ -155,7 +155,7 @@ body {
   display: flex;
   color: white;
 	grid-gap: 1px;
-	width: 20rem;
+	width: 80%;
 	height: 20rem;
 	margin: 2rem auto;
   font-family: 'Oswald', sans-serif;
