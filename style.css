@@ -4,60 +4,18 @@
   --lgt-purple: #5B3490;
 }
 
-body {
-  margin: 0;
-}
-
 .container {
   background-image: radial-gradient(circle at center,   var(--dark-purple),var(--med-purple), var(--lgt-purple));
   background-attachment: fixed;
-  margin-color: #1f004d;
   padding: 0;
   margin: 0;
 }
 
- #footer {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  color: white;
-}
-
- .fa-linkedin {
-  background: #0e76A8;
-  color: white;
-}
-
- .fa-github {
-  background: black;
-  color: white;
-}
-
- .fa {
-  padding: .1em;
-  font-size: 2em;
-  width: 1.1em;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
- .fa:hover {
-  opacity: 0.7;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-}
-
- .content {
-  text-align: center;
-  border-radius: 60%;
+body {
   margin: 0;
 }
 
- #header ul {
+#header ul {
   color: white;
   font-size: x-large;
   align-items: center;
@@ -74,10 +32,7 @@ body {
 
 #header li {
   padding-left: 4em;
-}
-
-#hearder li a:hover {
-  color: orange;
+  list-style-type: none;
 }
 
 #header li a:link {
@@ -90,28 +45,30 @@ body {
   text-decoration: none;
 }
 
+#header li a:hover {
+  color: orange;
+}
+
 #headshot img {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  width: 20%;
-  height: 20%;
   z-index: 100;
   transform: translate(-50%, -50%);
   border: none;
   outline: 0;
-  top: 10%;
+  top: 15%;
   left: 50%;
   padding: 6px 15px;
   color: black;
-  font-size: 1rem;
-
   cursor: pointer;
 
-
 }
- #header li {
-  list-style-type: none;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
  .hero {
@@ -119,18 +76,17 @@ body {
   align-items: flex-end;
   grid-column-start: 1;
   grid-column-end: 4;
-
-}
-
-.credit  {
-  position: absolute;
-  right: 0em;
 }
 
 .hero img {
   max-width: 100%;
   opacity: 0.9;
 
+}
+
+.credit  {
+  position: absolute;
+  right: 0em;
 }
 
 .hero-text {
@@ -157,7 +113,6 @@ body {
 
 .hire-button {
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: none;
@@ -184,13 +139,15 @@ body {
   grid-column-start: 1;
   grid-column-end: 4;
   justify-content: space-around;
-  display: flex; /* default is row */
+  display: flex;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
 }
 
  .content {
+  text-align: center;
+  margin: 0;
   display: flex;
   color: white;
 	grid-gap: 1px;
@@ -203,4 +160,33 @@ body {
   background-color: black;
   justify-content: space-around;
 	border-radius: 25px;
+}
+
+#footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: white;
+}
+
+ .fa {
+  padding: .1em;
+  font-size: 2em;
+  width: 1.1em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+ .fa:hover {
+  opacity: 0.7;
+}
+
+ .fa-linkedin {
+  background: #0e76A8;
+  color: white;
+}
+
+ .fa-github {
+  background: black;
+  color: white;
 }
