@@ -87,7 +87,11 @@
  .hero {
   grid-column-start: 1;
   grid-column-end: 4;
+}
+
+.hero img {
   opacity: 0.9;
+  max-width: 100%;
 }
 
 .hero-text {
