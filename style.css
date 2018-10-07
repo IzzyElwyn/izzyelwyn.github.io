@@ -172,6 +172,12 @@ body {
   grid-column-end: 4;
 }
 
+.projects-banner img {
+  max-width: 100%;
+  opacity: 0.9;
+  background-size: cover;
+}
+
 .projects-content {
   text-align: center;
   display: flex;
