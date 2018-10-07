@@ -85,6 +85,11 @@
   justify-content: space-around;
 }
 
+#header li a:link {
+  color: white;
+  text-decoration: none;
+}
+
 #header li a:visited {
   color: white;
   text-decoration: none;
