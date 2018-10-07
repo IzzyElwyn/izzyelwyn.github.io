@@ -83,6 +83,7 @@
   width: 25em;
   height: 2em;
   justify-content: space-around;
+  text-decoration: none;
 }
 
 #header li a:link {
@@ -96,7 +97,8 @@
 }
 
 #header li a:hover {
-  color: white;
+  color: orange;
+  text-decoration: none;
 }
 
 #header li {
