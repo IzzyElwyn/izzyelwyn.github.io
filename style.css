@@ -94,8 +94,8 @@ body {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  width: .5em;
-  height: .5em;
+  width: 2em;
+  height: 2em;
   z-index: 100;
   transform: translate(-50%, -50%);
   border: none;
@@ -193,7 +193,6 @@ body {
  .content {
   display: flex;
   color: white;
-
 	grid-gap: 1px;
 	width: 20rem;
 	height: 20rem;
