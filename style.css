@@ -55,6 +55,7 @@
  #header {
   display: flex;
   background-color: black;
+  max-width: 100%;
   align-items: center; /*y-axis*/
   justify-content: space-between;
 }
