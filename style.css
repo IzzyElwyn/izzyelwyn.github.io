@@ -15,6 +15,7 @@
 body {
   margin: 0;
   max-width:100%;
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
 }
 
 #header ul {
@@ -97,7 +98,7 @@ body {
 .hero-text {
   text-align: center;
   justify-content: center;
-  font-size: 3em;
+  height: 3em;
   font-family: 'Merriweather', serif;
   position: absolute;
   top: 50%;
