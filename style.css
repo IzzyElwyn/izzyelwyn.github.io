@@ -119,6 +119,11 @@ a {
 
 #headshot {
   border-radius: 50%;
+  padding-top: 1rem;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+
 }
 
 .hero {
