@@ -140,6 +140,11 @@ a {
   color: white;
 }
 
+.credit  {
+  position: absolute;
+  right: 0em;
+}
+
 .hero-description {
   text-align: center;
   font-size: 1.5rem;
