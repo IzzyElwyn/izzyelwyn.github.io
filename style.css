@@ -96,6 +96,7 @@ body {
 
 .hero-text {
   text-align: center;
+  align-items: center;
   font-size: 3em;
   font-family: 'Merriweather', serif;
   position: absolute;
