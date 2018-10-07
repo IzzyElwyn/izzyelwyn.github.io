@@ -54,6 +54,8 @@ body {
   display: inline-block;
   position: absolute;
   z-index: 100;
+  height: 3em:
+  width: auto;
   transform: translate(-50%, -50%);
   border: none;
   outline: 0;
@@ -81,6 +83,7 @@ body {
 .hero img {
   max-width: 100%;
   opacity: 0.9;
+  background-size: contain;
 
 }
 
@@ -147,7 +150,6 @@ body {
 
  .content {
   text-align: center;
-  margin: 0;
   display: flex;
   color: white;
 	grid-gap: 1px;
