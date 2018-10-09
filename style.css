@@ -196,8 +196,7 @@ button a:visited {
 
 #footer {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  align-items: flex-start;
 }
 
  .fa {
