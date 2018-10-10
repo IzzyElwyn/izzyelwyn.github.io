@@ -276,6 +276,7 @@ button:hover a {
   left: 0;
   right: 0;
   font-family: "Oswald", sans-serif;
+  font-size: 2vw;
   background-color: black;
   overflow: hidden;
   max-width: 100%;
@@ -285,7 +286,7 @@ button:hover a {
 
 }
 
-.overlay a {
+.overlay h3 {
   font-size: 2vw;
   font-family: "Oswald", sans-serif;
   text-decoration: underline;
