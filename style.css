@@ -285,6 +285,12 @@ button:hover a {
 }
 
 .overlay h3 {
+  font-family: inherit;
+  font-size: 2vw;
+  text-decoration: underline;
+}
+
+.overlay a {
   font-size: 2vw;
   font-family: "Oswald", sans-serif;
   text-decoration: underline;
