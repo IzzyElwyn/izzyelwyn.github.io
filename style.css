@@ -141,9 +141,6 @@
 }
 
 .credit {
-  max-width: 15vw;
-  max-height: 4vw;
-  font-size: 1vw;
   position: absolute;
   right: 0;
 }
@@ -244,6 +241,7 @@ button:hover a {
 }
 
 .project-header {
+  font-size: 4vw;
   padding-top: 2%;
   grid-column-start: 1;
   grid-column-end: -1;
@@ -287,7 +285,7 @@ button:hover a {
 
 }
 
-.overlay h3 {
+.overlay a {
   font-size: 2vw;
   font-family: "Oswald", sans-serif;
   text-decoration: underline;
