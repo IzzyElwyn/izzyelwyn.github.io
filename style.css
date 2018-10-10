@@ -180,17 +180,17 @@
 }
 
 button a:link {
-  color: orange;
+  color: darkorange;
   text-decoration: none;
 }
 
 button a:visited {
-  color: orange;
+  color: darkorange;
   text-decoration: none;
 }
 
 button:hover {
-  background-color: orange;
+  background-color: darkorange;
 }
 
 button:hover a {
@@ -247,6 +247,8 @@ button:hover a {
   display: flex;
   text-align: center;
   text-decoration: underline;
+  color: darkorange;
+  text-shadow: #474747 3px 5px 2px;
 
 }
 
