@@ -10,7 +10,6 @@
   <link href="/style.css" rel="stylesheet">
 </head>
 
-
 <body class="container">
   <header id="header">
     <nav>
@@ -22,19 +21,23 @@
           <a href="#Projects">Projects</a>
         </li>
         <li>
-          <a href="#Contact">Contact</a>
+          <div class="dropdown">
+            <button class="dropbtn">Connect</button>
+            <div class="dropdown-content">
+              <a href="https://github.com/IzzyElwyn">Github</a>
+              <a href="https://www.linkedin.com/in/ielwyn/">LinkdIn</a>
+              <a href="mailto:izzy.elwyn@gmail.com">Email</a>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>
 
   </header>
 
-  <div id="headshot">
-  </div>
-
   <div class="grid-container">
     <div class="hero"><img src="https://izzyelwyn.github.io/images/oskar-yildiz-631351-unsplash.jpg" alt="Coding" width=100%>
-      <img src="https://izzyelwyn.github.io/images/headshot.png" class="headshot" height=25%>
+      <img class="headshot" src="https://izzyelwyn.github.io/images/headshot.png" alt="headshot" height=25%>
       <div class="credit"><a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
           href="https://unsplash.com/@oskaryil?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Oskar Yildiz"><span
             style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32">
@@ -44,7 +47,7 @@
       </img>
       <h1 class="hero-text">I'm Isadora Elwyn</h1>
       <p class="hero-description">and I'm a developer</p>
-      <button class="hire-button"><a style="font-size:2vw" href=mailto:izzy.elwyn@gmail.com>Hire Me</a></button>
+      <button class="hire-button"><a href=mailto:izzy.elwyn@gmail.com>Hire Me</a></button>
     </div>
 
     <section class="icons" id="About"><img src="https://izzyelwyn.github.io/images/bulb.png" alt="creative" width=15% height=10%></img><img src="https://izzyelwyn.github.io/images/web.png" alt="connect" width=15% height=10%></img><img src="https://izzyelwyn.github.io/images/code.png"
@@ -61,25 +64,33 @@
       <h3>Fun Fact</h3>
       <p>I love to crochet and build Lego models in my free time</p>
     </section>
-    <article class="projects-content" id="Projects">
-      <a href="https://github.com/IzzyElwyn/virtual-pet">Virtual Pet</a>
-      <p>a gigapet based on the cult classic 80's film: Gremlins</p>
+    <section class="project-header">
+      <h2>Projects</h2>
+    </section>
+    <article class="projects-container" id="Projects">
+      <img class="screencap" src="https://github.com/IzzyElwyn/izzyelwyn.github.io/blob/master/images/gizmo.png?raw=true" alt="Virtual-pet">
+      <div class="overlay">
+        <a href="https://github.com/IzzyElwyn/virtual-pet">Virtual Pet</a>
+        <p>a gigapet based on the cult classic 80's film: Gremlins</p>
+      </div>
     </article>
-    <article class="projects-content">
-      <a href="https://github.com/IzzyElwyn/virtual-pets-amok">Virtual Pets Amok</a>
-      <p>A complex Java Inheritance exercise demonstrating a complete understanding of object oriented programming involving the management of pets in a shelter environment</p>
+    <article class="projects-container">
+      <img class="screencap" src="https://github.com/IzzyElwyn/izzyelwyn.github.io/blob/master/images/amok.png?raw=true" alt="Virtual-pet">
+      <div class="overlay">
+        <a href="https://github.com/IzzyElwyn/virtual-pets-amok">Virtual Pets Amok</a>
+        <p>A complex Java Inheritance exercise involving the management of pets in a shelter environment</p>
+      </div>
     </article>
-    <article class="projects-content">
-      <a href="https://github.com/IzzyElwyn/reviews">Reviews</a>
-      <p>An html site created with Spring MVC</p>
+    <article class="projects-container">
+      <img class="screencap" src="https://github.com/IzzyElwyn/izzyelwyn.github.io/blob/master/images/reviews.png?raw=true" alt="Virtual-pet">
+      <div class="overlay">
+        <a href="https://github.com/IzzyElwyn/reviews">Reviews</a>
+        <p>An html site created with Spring MVC</p>
+      </div>
     </article>
   </div>
   <footer id="footer">
     <small>&copy; IzzyElwyn 2018</small>
-    <div id="Contact">
-      <a href="https://github.com/IzzyElwyn" class="fa fa-github"></a>
-      <a href="https://www.linkedin.com/in/ielwyn/" class="fa fa-linkedin"></a>
-    </div>
   </footer>
 
 </body>
