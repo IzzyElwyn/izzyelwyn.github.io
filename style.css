@@ -313,3 +313,7 @@ button:hover a {
   font-family: "Oswald", sans-serif;
   text-decoration: underline;
 }
+
+#footer {
+  font-size: 1vw;
+}
