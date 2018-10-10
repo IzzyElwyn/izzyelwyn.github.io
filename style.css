@@ -30,6 +30,7 @@
 }
 
 #header li {
+  font-size: 2vw;
   padding-left: 5%;
   list-style-type: none;
 }
@@ -90,6 +91,7 @@
 }
 
 .hero-text {
+  font-size:4vw;
   text-align: center;
   font-family: 'Merriweather', serif;
   position: absolute;
@@ -99,10 +101,11 @@
 }
 
 .hero-description {
+  font-size:2vw;
   text-align: center;
   font-family: 'Merriweather', serif;
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -116,7 +119,6 @@
   font-family: 'Oswald', sans-serif;
   display: inline-block;
   padding: .5% 1%;
-
   background-color: rgba(0,0,0,0);
   text-align: center;
   cursor: pointer;
@@ -152,44 +154,68 @@ button:hover a{
   border-radius: 50%;
 }
 
- .content {
-  text-align: center;
-  display: flex;
-	grid-gap: 1%;
-	width: 80%;
-	height: 15em;
- 	margin: 5% auto;
-  font-family: 'Oswald', sans-serif;
-  text-shadow: 1px 2px 3px #666;
-  box-shadow: 4px 6px 28px -2px rgba(0,0,0,0.75);
-  background-color: black;
-  justify-content: space-around;
-	border-radius: 15%;
+.content {
+    text-align: center;
+    display: flex;
+    grid-gap: 1%;
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 4px 6px 28px -2px rgba(0,0,0,0.75);
+    background-color: black;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 15%;
+}
+
+.content h3 {
+    font-size:2vw;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.content p {
+    font-size:1.5vw;
+    padding: 2%;
+    border-radius: 25%;
+    margin: 1%;
+    color: lightgray;
 }
 
 .projects-content {
-  text-align: center;
-  display: flex;
-  grid-gap: 1%;
-	width: 80%;
-	height: 15em;
-	margin: 5% auto;
-  font-family: 'Oswald', sans-serif;
-  text-shadow: 1px 2px 3px #666;
-  box-shadow: 4px 6px 28px -2px rgba(0,0,0,0.75);
-  background-color: black;
-  justify-content: space-around;
-	border-radius: 15%;
+ text-align: center;
+    display: flex;
+    grid-gap: 1%;
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 4px 6px 28px -2px rgba(0,0,0,0.75);
+    background-color: black;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 15%;
 }
 
 .projects-content a:link {
+  font-size:2vw;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .projects-content a:visited {
   color: white;
 
+}
+
+.projects-content p {
+    font-size:1.5vw;
+    padding: 2%;
+    border-radius: 25%;
+    margin: 1%;
+    color: lightgray;
 }
 
 #footer {
@@ -200,7 +226,7 @@ button:hover a{
 
  .fa {
   padding: .1em;
-  font-size: 2em;
+  font-size: 3vw;
   width: 1.1em;
   text-align: center;
   text-decoration: none;
