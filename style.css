@@ -87,10 +87,9 @@
 
 .dropdown-content a {
     color: black;
-    padding: 1vw 2vw;
+    padding: 1vw 1vw;
     text-decoration: none;
     display: block;
-}
 
 .dropdown-content a:hover {
   background-color: black;
