@@ -25,5 +25,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-var prevButton = document.getElementByClassName('prev');
+var prevButton = document.getElementsByClassName('prev')[0];
 prevButton.addEventListener('click', plusSlides(-1));
