@@ -5,10 +5,6 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-var prevButton = document.getElementByClassName('prev');
-prevButton.addEventListener('onclick', function plusSlides(-1));
-
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
