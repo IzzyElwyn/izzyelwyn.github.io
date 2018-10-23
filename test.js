@@ -1,4 +1,4 @@
-var slideIndex = 1;
+ var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -26,4 +26,4 @@ function showSlides(n) {
 }
 
 var prevButton = document.getElementsByClassName('prev');
-prevButton.addEventListener('click', plusSlides(-1);
+prevButton.addEventListener('click', plusSlides(-1));
