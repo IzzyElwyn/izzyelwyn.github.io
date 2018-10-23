@@ -26,6 +26,26 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+var dot1 = document.getElementById('dot1');
+dot1.addEventListener('click', function() {
+  currentSlide(1);
+})
+
+var dot2 = document.getElementById('dot1');
+dot2.addEventListener('click', function() {
+  currentSlide(2);
+})
+
+var dot3 = document.getElementById('dot1');
+dot3.addEventListener('click', function() {
+  currentSlide(3);
+})
+
+var dot4 = document.getElementById('dot1');
+dot4.addEventListener('click', function() {
+  currentSlide(4);
+})
+
 var prevButton = document.getElementById('prev');
 prevButton.addEventListener('click', function() {
   plusSlides(-1);
