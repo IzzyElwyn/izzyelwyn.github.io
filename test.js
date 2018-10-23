@@ -31,17 +31,17 @@ dot1.addEventListener('click', function() {
   currentSlide(1);
 })
 
-var dot2 = document.getElementById('dot1');
+var dot2 = document.getElementById('dot2');
 dot2.addEventListener('click', function() {
   currentSlide(2);
 })
 
-var dot3 = document.getElementById('dot1');
+var dot3 = document.getElementById('dot3');
 dot3.addEventListener('click', function() {
   currentSlide(3);
 })
 
-var dot4 = document.getElementById('dot1');
+var dot4 = document.getElementById('dot4');
 dot4.addEventListener('click', function() {
   currentSlide(4);
 })
