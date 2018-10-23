@@ -5,10 +5,6 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-var prevButton = document.getElementByClassName('prev');
-prevButton.addEventListener('onclick', function plusSlides(-1));
-
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -28,3 +24,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var prevButton = document.getElementsByClassName('prev');
+prevButton.addEventListener('click', plusSlides(-1);
