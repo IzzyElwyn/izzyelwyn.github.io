@@ -27,4 +27,6 @@ function showSlides(n) {
 }
 
 var prevButton = document.getElementsByClassName('prev')[0];
-prevButton.addEventListener('click', plusSlides(-1));
+console.log(prevButton);
+prevButton.onclick = plusSlides(-1);
+//prevButton.addEventListener('click', plusSlides(-1));
