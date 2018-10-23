@@ -2,6 +2,7 @@
 showSlides(slideIndex);
 
 function plusSlides(n) {
+  console.log('plusSlides: ' + n);
   showSlides(slideIndex += n);
 }
 
