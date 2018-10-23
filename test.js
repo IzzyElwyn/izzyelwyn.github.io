@@ -30,3 +30,8 @@ var prevButton = document.getElementById('prev');
 prevButton.addEventListener('click', function() {
   plusSlides(-1);
 })
+
+var nextButton = document.getElementById('next');
+nextButton.addEventListener('click', function() {
+  plusSlides(1);
+})
