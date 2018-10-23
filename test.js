@@ -28,3 +28,4 @@ function showSlides(n) {
 
 var prevButton = document.getElementById('prev');
 prevButton.addEventListener('click', plusSlides(-1));
+console.log(prevButton);
