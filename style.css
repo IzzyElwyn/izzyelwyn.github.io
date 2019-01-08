@@ -26,6 +26,11 @@
   margin: 0;
 }
 
+.logo {
+  width: 5%;
+  position: absolute;
+}
+
 #header ul {
   font-size: 150%;
   align-items: center;
