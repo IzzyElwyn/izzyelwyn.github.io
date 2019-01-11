@@ -29,6 +29,7 @@
 .logo {
   width: 5%;
   position: absolute;
+  padding-top: .5%;
 }
 
 #header ul {
