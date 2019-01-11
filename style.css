@@ -246,6 +246,26 @@ button:hover a {
   color: lightgray;
 }
 
+.content a {
+  text-decoration: none;
+  color: white;
+}
+
+.content a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.content a:hover {
+  text-decoration: none;
+  color: darkorange;
+}
+
+.content a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .project-header {
   font-size: 4vw;
   padding-top: 2%;
