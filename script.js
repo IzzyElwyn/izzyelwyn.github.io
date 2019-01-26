@@ -1,6 +1,6 @@
 let modal = document.getElementById('secret-modal');
 
-let btn = document.getElementById('myBtn');
+let btn = document.getElementById('jackalope');
 
 let span = document.getElementsByClassName("close")[0];
 
