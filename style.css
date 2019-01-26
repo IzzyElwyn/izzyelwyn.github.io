@@ -269,6 +269,8 @@ button:hover a {
 
 .content li {
   list-style-type: none;
+  padding: 0;
+  border: 0;
 }
 
 .content h3 {
