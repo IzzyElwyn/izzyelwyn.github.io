@@ -52,14 +52,13 @@
 
 .close {
   color: #aaa;
-  float: left;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: orange;
   text-decoration: none;
   cursor: pointer;
 }
