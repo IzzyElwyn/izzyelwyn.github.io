@@ -266,6 +266,10 @@ button:hover a {
   border-radius: 15%;
 }
 
+.content ul {
+  list-style-type: none;
+}
+
 .content h3 {
   font-size: 2vw;
   font-family: "Oswald", sans-serif;
