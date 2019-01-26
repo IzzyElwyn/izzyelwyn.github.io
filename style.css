@@ -267,12 +267,19 @@ button:hover a {
   padding-bottom: 1%;
 }
 
-.content ul, li {
+.content li {
   font-size: 1.5vw;
   color: lightgray;
   list-style-type: none;
   padding: 0;
   border: 0;
+}
+
+.content ul {
+  padding: 0;
+  border: 0;
+  border-radius: 25%;
+  margin: 1%;
 }
 
 .content h3 {
