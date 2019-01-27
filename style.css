@@ -25,6 +25,14 @@
 }
 
 .logo {
+  display: block;
+  width: 5%;
+  position: absolute;
+  padding-top: .3%;
+}
+
+.hover-logo {
+  display: none;
   width: 5%;
   position: absolute;
   padding-top: .3%;
