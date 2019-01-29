@@ -178,6 +178,7 @@
   align-items: flex-end;
   grid-column-start: 1;
   grid-column-end: -1;
+  width: 100%;
 }
 
 .hero img {
@@ -188,6 +189,30 @@
 .credit {
   position: absolute;
   right: 0;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 4px 6px;
+  font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.2;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.credit span {
+  display: inline-block;
+  padding: 2px 3px;
+}
+
+.credit svg {
+  height: 12px;
+  width: auto;
+  position: relative;
+  vertical-align: middle;
+  top: -1px;
+  fill: white;
 }
 
 .hero-text {
@@ -253,6 +278,11 @@ button:hover a {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+}
+
+.icons img {
+  width: 15%;
+  height: 10%;
 }
 
 .content {
